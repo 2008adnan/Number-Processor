@@ -24,7 +24,6 @@ int main(){
 
         validcount++;
         printf("%d is %s\n",num,(num%2==0)?"Even":"Odd");
-        }
         if(num<10){
             printf("Category:Small Number\n");
         }else if(num>=10 && num<=50){
@@ -33,8 +32,9 @@ int main(){
             printf("Category:Large Number\n");
         }
 
-
+        }
+        return 0;
     }
 
-    return 0;
-}
+    
+
