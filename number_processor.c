@@ -31,8 +31,22 @@ int main(){
         }else{
             printf("Category:Large Number\n");
         }
-
+        switch (num%5)
+        {
+        case 0:
+            printf("Perfectly divisible by 5\n");
+            break;
+        case 1:
+            printf("Remainder 1 when divided by 5\n");
+            break;
+        default:
+        printf("Remainder %d when divided by 5\n", num%5);
+            break;
         }
+        }
+        printf("\n--- Summary ---\n");
+        printf("Total valid numbers processed: %d\n", validcount);
+        printf("Total negative numbers skipped: %d\n", skipcount);
         return 0;
     }
 
