@@ -50,3 +50,8 @@ Loop stopped at zero
 Total valid numbers processed: 1
 Total negative numbers skipped: 1
 ```
+---
+## ✍️Author
+Adnan Ahmad
+
+GitHub : 2008adnan
