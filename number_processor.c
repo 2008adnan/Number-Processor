@@ -49,6 +49,3 @@ int main(){
         printf("Total negative numbers skipped: %d\n", skipcount);
         return 0;
     }
-
-    
-
